@@ -1,0 +1,16 @@
+create database rinu;
+drop database rinu;
+use rinu;
+create table employee(
+ employeeid int primary key,
+ employeename varchar(50),
+ city varchar(50),
+ mobileno varchar(50),
+ emailid varchar(50)
+);
+
+drop table employee;
+insert into employee(employeeid,employeename,city,mobileno,emailid)
+values("101","rina","sagar","7458264598","siyapatel@gamil.com");
+
+select * from employee;
