@@ -1,0 +1,26 @@
+-- create database --
+create database pm40;
+use pm40;
+-- drop dtabase --
+-- create table-- 
+-- delete table--
+create table student(
+std_id int primary key,
+std_name varchar(20),
+rollno varchar(20),
+status varchar(20),
+city varchar(20)
+
+);
+
+insert into student(std_id,std_name,rollno,status,city)
+  values("101","Ram patel","41568220","Regular","Mumbai"),
+ ("102","Kanha thakur","41568220","Regular","Sagar"),
+ ("103","Riya gupta","41568220","privite","Delhi"),
+ ("104","Rama patel","41568220","Regular","Mumbai"),
+("105","Raman patel","41568220","private","Thane");
+
+select * from student;
+
+
+
